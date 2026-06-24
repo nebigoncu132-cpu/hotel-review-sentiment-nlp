@@ -60,3 +60,4 @@ Test (n = 2,747)  95.1% accuracy
 11. **Summary** — strengths and limitations of the BoW approach and so on.
 
 All randomness is seeded (`random_state = 42`) so results are can be tried by you as well.
+The link for GitHub rep: https://github.com/nebigoncu132-cpu/hotel-review-sentiment-nlp
