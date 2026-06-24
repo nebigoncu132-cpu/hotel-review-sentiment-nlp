@@ -22,9 +22,9 @@ concrete example, why a logistic model with Bow is blind to order.
 **TripAdvisor Hotel Reviews** 
 Download the CSV and save it as `tripadvisor_hotel_reviews.csv` in the same folder as the notebook.
 
-## How to run
+## How to run it?
 
-1. **Install requirements** (Python 3.9+):
+1. **First install requirements** :
 
    ```bash
    pip install pandas numpy scikit-learn matplotlib
@@ -60,13 +60,13 @@ weighted avg       0.95      0.95      0.95      2747
 
 ## Notebook structure
 
-1. **Setup** — import libraries.
+1. **Setup** — first import libraries.
 2. **Dataset** — load TripAdvisor reviews of random people.
 3. **Binary label** —  4–5 stars are  Positive, 1–2 stars are  Negative and  drop the neutral (3 stars).
 4. **Split** — 70 / 15 / 15 division to  train / val / test data sets
-5. **Preprocessing** — lowercase, strip non-letters, collapse whitespace.
-6. **Tokenisation & vocabulary** — split into tokens, build vocab from training data, encode, pad to 266 tokens.
-7. **BoW + Logistic Regression** — CountVectorizer (top 3,000 features) and use  LogisticRegression; val and test accuracy; confusion matrix.
+5. **Preprocessing** — lowercase, remove non-letters and collapsee whitespace.
+6. **Tokenisation and vocabulary** — split into tokens, build vocab from training data, encode, pad to 266 tokens.
+7. **BoW and Logistic Regression** — CountVectorizer (top 3000 features) and use  LogisticRegression; val and test accuracy; confusion matrix.
 8. **Top words** — most influential words for each sentiment class.
 9. **Custom predictions** — five hand-written sentences tested with confidence scores.
 10. **Word-order demo** — proof that BoW gives identical predictions for reordered sentences.
