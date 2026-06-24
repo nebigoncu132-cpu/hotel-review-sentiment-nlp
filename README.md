@@ -51,12 +51,12 @@ Test set classification report:
 
    precision    recall  f1-score   support
 
-    Negative       0.85      0.88      0.86       482
-    Positive       0.97      0.97      0.97      2265
+Negative       0.85      0.88      0.86       482
+Positive       0.97      0.97      0.97      2265
 
-    accuracy                           0.95      2747
-    macro avg       0.91      0.92      0.92      2747
-    weighted avg       0.95      0.95      0.95      2747
+accuracy                           0.95      2747
+macro avg       0.91      0.92      0.92      2747
+weighted avg       0.95      0.95      0.95      2747
 
 ## Notebook structure
 
