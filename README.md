@@ -15,7 +15,7 @@ concrete example, why a logistic model with Bow is blind to order.
 | `hotel_reviews_sentiment_analysis.ipynb` | All code: runfrom top to bottom. 
 | `tripadvisor_hotel_reviews.csv` | TripAdvisor dataset (download separately)) . 
 | `Hotel_Reviews_NLP_Report.docx` | Writtenn report. 
-| `Hotel_Reviews_NLP_Slides.pdf` | Presentation slide. 
+| `Hotel_Sentiment_Presentation.pdf` | Presentation slide. 
 
 ## Dataset
 
