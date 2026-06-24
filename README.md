@@ -13,7 +13,7 @@ concrete example, why a logistic model with Bow is blind to order.
 | File | Description |
 |---|---|
 | `hotel_reviews_sentiment_analysis.ipynb` | All code: data loading, preprocessing, tokenisation, BoW and Logistic Regression, confusion matrix, top-word analysis, custom sentence predictions, and word-order demo. runfrom top to bottom. 
-| `tripadvisor_hotel_reviews.csv` | TripAdvisor dataset (download separately at below). 
+| `tripadvisor_hotel_reviews.csv` | TripAdvisor dataset (download separately . 
 | `Hotel_Reviews_NLP_Report.docx` | Writtenn report. 
 | `Hotel_Reviews_NLP_Slides.pptx` | Presentation slide. 
 
@@ -41,11 +41,11 @@ Download the CSV and save it as `tripadvisor_hotel_reviews.csv` in the same fold
 
 ## Results
 
-| Split | Accuracy |
-|---|---|
-| Validation (n = 2,746)  94.90% 
-| Test (n = 2,747)  95.1% 
-| Majority class baseline  82.40% 
+ Split  Accuracy 
+
+ Validation (n = 2,746)  94.90% 
+ Test (n = 2,747)  95.1% 
+ Majority class baseline  82.40% 
 
 Test set classification report:
 
@@ -55,8 +55,8 @@ Test set classification report:
     Positive       0.97      0.97      0.97      2265
 
     accuracy                           0.95      2747
-   macro avg       0.91      0.92      0.92      2747
-weighted avg       0.95      0.95      0.95      2747
+    macro avg       0.91      0.92      0.92      2747
+    weighted avg       0.95      0.95      0.95      2747
 
 ## Notebook structure
 
